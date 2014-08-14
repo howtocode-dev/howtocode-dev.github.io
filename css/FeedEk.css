@@ -1,0 +1,18 @@
+div.divRss {
+	margin-top: 10px;
+}
+
+.itemTitle a{
+	font-weight:bold; 
+	color:#FFFFFF !important; 
+	text-decoration:none 
+}
+
+.feedEkList li{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.itemTitle a:hover{
+	text-decoration:underline 
+}
