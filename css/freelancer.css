@@ -281,9 +281,9 @@ section.blog {
     background: 0 0;
     transition: all .3s ease-in-out;
 
-    margin: 5px;
+    margin: 5px 0px;
     margin-left: 0px; 
-    padding: 15px;   
+    padding: 14px;   
 }
 
 .btn-clear.active {
