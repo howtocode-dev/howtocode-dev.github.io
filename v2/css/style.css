@@ -215,12 +215,12 @@ a, button {
 }
 
 
-.no-touch .course:hover .description{
+.course:hover .description{
 	background-color: rgba(0, 0, 0, .6);
     top:50%
 }
 
-.no-touch .not-found:hover .description{
+.not-found:hover .description{
 	background-color: rgba(0, 0, 0, .6);
     top:50%
 }
