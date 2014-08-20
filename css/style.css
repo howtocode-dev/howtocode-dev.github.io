@@ -217,7 +217,7 @@ a, button {
 
 .course:hover .description{
 	background-color: rgba(0, 0, 0, .6);
-    top:50%
+    top:55%
 }
 
 .not-found:hover .description{
