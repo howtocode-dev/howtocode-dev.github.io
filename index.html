@@ -329,7 +329,7 @@
 				}
 
 				console.log("Repository : ", repo);
-				selector.find(".last-update").html('<span class="glyphicon glyphicon-ok-circle"></span> হালনাগাদ হয়েছে '+moment(repo.updated_at, null, 'bn').fromNow());
+				selector.find(".last-update").html('<span class="glyphicon glyphicon-ok-circle"></span> হালনাগাদ হয়েছে '+moment(repo.pushed_at, null, 'bn').fromNow());
 
 				});    
 			}    
