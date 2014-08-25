@@ -331,27 +331,29 @@
 
 		<!-- Github API consume detail -->
 		<script>
-		var HowToCode = new Gh3.User("howtocode-com-bd");
-		var totalThumb = $('.course').length;
+		$(document).ready(function () {
+			var HowToCode = new Gh3.User("howtocode-com-bd");
+			var totalThumb = $('.course').length;
 
-		$('.course').each(function(index, element){
+			$('.course').each(function(index, element){
 
-			if (index < totalThumb-1) {
-				var selector = $(this);
-				//get one repository
-				var repo = new Gh3.Repository($(this).attr('id')+".howtocode.com.bd", HowToCode);
+				if (index < totalThumb-1) {
+					var selector = $(this);
+					//get one repository
+					var repo = new Gh3.Repository($(this).attr('id')+".howtocode.com.bd", HowToCode);
 
-				repo.fetch(function (err, res) {
-				if(err) {
-				console.log("Error", err.message, res.status)
-				throw err
-				}
+					repo.fetch(function (err, res) {
+					if(err) {
+					console.log("Error", err.message, res.status)
+					throw err
+					}
 
-				console.log("Repository : ", repo);
-				selector.find(".last-update").html('<span class="glyphicon glyphicon-ok-circle"></span> হালনাগাদ হয়েছে '+moment(repo.pushed_at, null, 'bn').fromNow());
+					console.log("Repository : ", repo);
+					selector.find(".last-update").html('<span class="glyphicon glyphicon-ok-circle"></span> হালনাগাদ হয়েছে '+moment(repo.pushed_at, null, 'bn').fromNow());
 
-				});    
-			}    
+					});    
+				}    
+			});
 		});
 
 		</script>
