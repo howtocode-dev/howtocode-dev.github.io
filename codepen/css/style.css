@@ -1,0 +1,555 @@
+/* Custom Mixins*/
+/* Variables */
+/*  Cream Soda Colours */
+/* Base Page Styles */
+/* line 12, ../sass/base.scss */
+
+/* line 41, ../sass/base.scss */
+strong, a {
+  color: #5ac9b2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* line 48, ../sass/base.scss */
+code {
+  background: #fff;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #eaeaea;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 3px;
+  display: block;
+}
+@media (min-width: 720px) {
+  /* line 48, ../sass/base.scss */
+  code {
+    padding: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 48, ../sass/base.scss */
+  code {
+    padding: 1em;
+  }
+}
+/* line 63, ../sass/base.scss */
+code span {
+  padding-left: 3em;
+}
+
+/* line 67, ../sass/base.scss */
+header {
+  width: columns-width(12);
+  padding: 1em;
+  text-align: center;
+}
+@media (min-width: 720px) {
+  /* line 67, ../sass/base.scss */
+  header {
+    padding: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 67, ../sass/base.scss */
+  header {
+    padding: 1em;
+  }
+}
+
+/* line 74, ../sass/base.scss */
+header .logo {
+  background: url(../img/creamsoda.png) no-repeat center;
+  display: inline-block;
+  width: 15em;
+  height: 20em;
+}
+
+/* line 82, ../sass/base.scss */
+body > section {
+  margin: 0 auto;
+  max-width: 80%;
+  background: transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  margin-bottom: 5em;
+}
+
+/* line 91, ../sass/base.scss */
+body > article {
+  margin: 0 auto;
+  max-width: 70%;
+  background: white;
+  border-radius: 5px;
+  padding: 3em;
+  line-height: 1.8em;
+  margin-bottom: 5em;
+  *zoom: 1;
+}
+@media (min-width: 720px) {
+  /* line 91, ../sass/base.scss */
+  body > article {
+    padding: 3em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 91, ../sass/base.scss */
+  body > article {
+    padding: 3em;
+  }
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+body > article:before, body > article:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+body > article:after {
+  clear: both;
+}
+
+/* line 104, ../sass/base.scss */
+table {
+  border: 1px solid #cacaca;
+  width: 100%;
+  margin-top:2em;
+  border-collapse: collapse;
+}
+/* line 110, ../sass/base.scss */
+table tr {
+  border-top: 1px solid #cacaca;
+}
+/* line 113, ../sass/base.scss */
+table th, table td {
+  padding: 1em;
+  border-right: 1px solid #cacaca;
+}
+@media (min-width: 720px) {
+  /* line 113, ../sass/base.scss */
+  table th, table td {
+    padding: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 113, ../sass/base.scss */
+  table th, table td {
+    padding: 1em;
+  }
+}
+/* line 118, ../sass/base.scss */
+table th {
+  background: #eaeaea;
+}
+/* line 122, ../sass/base.scss */
+table tr > td:first-child {
+  font-weight: bold;
+}
+/* line 126, ../sass/base.scss */
+table tr > td:nth-child(2) {
+  font-style: italic;
+  font-family: georgia;
+}
+
+
+h4 {
+  padding-left: 20px;
+  color:#777;
+}
+
+/* Custom Mixins*/
+/* Variables */
+/* line 2, ../sass/ticker/_base.scss */
+html, body {
+  font-size: 14px;
+}
+
+/* line 5, ../sass/ticker/_base.scss */
+.csTicker {
+  background: #fafcfa;
+  border-radius: 3px;
+  overflow: hidden;
+  height: 500px;
+  position: relative;
+}
+/* line 13, ../sass/ticker/_base.scss */
+.csTicker a {
+  color: #333333;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 19, ../sass/ticker/_base.scss */
+.csTicker ul {
+  position: absolute;
+}
+/* line 23, ../sass/ticker/_base.scss */
+.csTicker ul, .csTicker li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 29, ../sass/ticker/_base.scss */
+.csTicker .csTicker__spinner {
+  height: 100%;
+  width: 100%;
+  background: url(../img/spinner.png) no-repeat center;
+  position: absolute;
+  z-index: 400;
+}
+/* line 37, ../sass/ticker/_base.scss */
+.csTicker .csTicker__title {
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 0.5em;
+  background: #5ac9b2;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 100;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 720px) {
+  /* line 37, ../sass/ticker/_base.scss */
+  .csTicker .csTicker__title {
+    padding-top: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 37, ../sass/ticker/_base.scss */
+  .csTicker .csTicker__title {
+    padding-top: 1em;
+  }
+}
+@media (min-width: 720px) {
+  /* line 37, ../sass/ticker/_base.scss */
+  .csTicker .csTicker__title {
+    padding-left: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 37, ../sass/ticker/_base.scss */
+  .csTicker .csTicker__title {
+    padding-left: 1em;
+  }
+}
+@media (min-width: 720px) {
+  /* line 37, ../sass/ticker/_base.scss */
+  .csTicker .csTicker__title {
+    padding-right: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 37, ../sass/ticker/_base.scss */
+  .csTicker .csTicker__title {
+    padding-right: 1em;
+  }
+}
+@media (min-width: 720px) {
+  /* line 37, ../sass/ticker/_base.scss */
+  .csTicker .csTicker__title {
+    padding-bottom: 0.5em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 37, ../sass/ticker/_base.scss */
+  .csTicker .csTicker__title {
+    padding-bottom: 0.5em;
+  }
+}
+/* line 55, ../sass/ticker/_base.scss */
+.csTicker li {
+  border-bottom: 1px solid #e8e8e8;
+  border-top: 1px solid white;
+  padding: 1em;
+  *zoom: 1;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+}
+@media (min-width: 720px) {
+  /* line 55, ../sass/ticker/_base.scss */
+  .csTicker li {
+    padding: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 55, ../sass/ticker/_base.scss */
+  .csTicker li {
+    padding: 1em;
+  }
+}
+/* line 18, ../bourbon/addons/_clearfix.scss */
+.csTicker li:before, .csTicker li:after {
+  content: " ";
+  display: table;
+}
+/* line 23, ../bourbon/addons/_clearfix.scss */
+.csTicker li:after {
+  clear: both;
+}
+/* line 67, ../sass/ticker/_base.scss */
+.csTicker li:first-child {
+  border-top: none;
+}
+/* line 73, ../sass/ticker/_base.scss */
+.csTicker li > .col {
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 80, ../sass/ticker/_base.scss */
+.csTicker li > .col:first-child {
+  width: 25%;
+}
+/* line 84, ../sass/ticker/_base.scss */
+.csTicker li > .col:last-child {
+  width: 75%;
+  padding-left: 1em;
+}
+@media (min-width: 720px) {
+  /* line 84, ../sass/ticker/_base.scss */
+  .csTicker li > .col:last-child {
+    padding-left: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 84, ../sass/ticker/_base.scss */
+  .csTicker li > .col:last-child {
+    padding-left: 1em;
+  }
+}
+/* line 90, ../sass/ticker/_base.scss */
+.csTicker img {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+/* line 96, ../sass/ticker/_base.scss */
+.csTicker p {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4em;
+}
+/* line 101, ../sass/ticker/_base.scss */
+.csTicker p.h3 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.3em;
+  color: #333333;
+  font-weight: bold;
+}
+@media (min-width: 720px) {
+  /* line 101, ../sass/ticker/_base.scss */
+  .csTicker p.h3 {
+    margin-bottom: 0.5em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 101, ../sass/ticker/_base.scss */
+  .csTicker p.h3 {
+    margin-bottom: 0.5em;
+  }
+}
+/* line 110, ../sass/ticker/_base.scss */
+.csTicker p.small {
+  font-size: 0.875em;
+  margin-top: 0.5em;
+  color: #5ac9b2;
+}
+@media (min-width: 720px) {
+  /* line 110, ../sass/ticker/_base.scss */
+  .csTicker p.small {
+    margin-top: 0.5em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 110, ../sass/ticker/_base.scss */
+  .csTicker p.small {
+    margin-top: 0.5em;
+  }
+}
+/* line 117, ../sass/ticker/_base.scss */
+.csTicker li.featured p.h3, .csTicker li.featured p.small {
+  color: #DC0066;
+}
+
+@media (max-width: 799px) {
+  /* line 125, ../sass/ticker/_base.scss */
+  .csTicker .csTicker__title {
+    font-size: 1.2em;
+    overflow: hidden;
+    padding: 1.3em 6em 0.8em 1em;
+    text-align: left !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+/* line 1, ../sass/ticker/_buttons.scss */
+.csTicker__buttons {
+  height: 4em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 7em;
+  z-index: 200;
+}
+/* line 9, ../sass/ticker/_buttons.scss */
+.csTicker__buttons > div {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.6;
+}
+/* line 14, ../sass/ticker/_buttons.scss */
+.csTicker__buttons > div:hover {
+  opacity: 1;
+}
+
+/* line 20, ../sass/ticker/_buttons.scss */
+.buttons__prev-button {
+  background: url("../img/arrow_up.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+  cursor: pointer;
+  float: left;
+  height: 4em;
+  width: 3em;
+}
+
+/* line 28, ../sass/ticker/_buttons.scss */
+.buttons__next-button {
+  background: url("../img/arrow_down.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+  cursor: pointer;
+  float: left;
+  height: 4em;
+  width: 3em;
+}
+
+/* line 37, ../sass/ticker/_buttons.scss */
+.csTicker.csTicker--mini .csTicker__buttons {
+  background: #e8e8e8;
+  height: 3em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 6em;
+  z-index: 200;
+}
+/* line 47, ../sass/ticker/_buttons.scss */
+.csTicker.csTicker--mini .buttons__prev-button {
+  height: 3em;
+  background: url("../img/arrow_left.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+/* line 51, ../sass/ticker/_buttons.scss */
+.csTicker.csTicker--mini .buttons__next-button {
+  height: 3em;
+  background: url("../img/arrow_right.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+}
+
+/* line 1, ../sass/ticker/_horizontal.scss */
+.csTicker.csTicker--horizontal {
+  height: auto;
+  padding-bottom: 1em;
+}
+@media (min-width: 720px) {
+  /* line 1, ../sass/ticker/_horizontal.scss */
+  .csTicker.csTicker--horizontal {
+    padding-bottom: 1em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1, ../sass/ticker/_horizontal.scss */
+  .csTicker.csTicker--horizontal {
+    padding-bottom: 1em;
+  }
+}
+/* line 7, ../sass/ticker/_horizontal.scss */
+.csTicker.csTicker--horizontal ul > li > .col:last-child {
+  min-width: 75%;
+}
+/* line 12, ../sass/ticker/_horizontal.scss */
+.csTicker.csTicker--horizontal .buttons__prev-button {
+  background: url(../img/arrow_left.png) no-repeat center;
+}
+/* line 15, ../sass/ticker/_horizontal.scss */
+.csTicker.csTicker--horizontal .buttons__next-button {
+  background: url(../img/arrow_right.png) no-repeat center;
+}
+/* line 20, ../sass/ticker/_horizontal.scss */
+.csTicker.csTicker--horizontal ul {
+  width: 100000px;
+  height: 100%;
+}
+/* line 25, ../sass/ticker/_horizontal.scss */
+.csTicker.csTicker--horizontal ul > li {
+  float: left;
+  display: inline;
+  border-bottom: 0;
+  width: auto;
+}
+
+/* line 1, ../sass/ticker/_mini.scss */
+.csTicker.csTicker--mini {
+  height: 3em;
+}
+/* line 5, ../sass/ticker/_mini.scss */
+.csTicker.csTicker--mini ul > li > .col:first-child {
+  display: none;
+}
+/* line 8, ../sass/ticker/_mini.scss */
+.csTicker.csTicker--mini ul > li > .col:last-child {
+  width: 100%;
+  padding: 0;
+}
+/* line 13, ../sass/ticker/_mini.scss */
+.csTicker.csTicker--mini .csTicker__title {
+  border-bottom: 0 none;
+  display: block;
+  float: left;
+  font-size: 1em;
+  height: auto;
+  padding-bottom: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+}
+/* line 24, ../sass/ticker/_mini.scss */
+.csTicker.csTicker--mini ul {
+  width: 100000px;
+}
+/* line 28, ../sass/ticker/_mini.scss */
+.csTicker.csTicker--mini ul > li {
+  float: left;
+  display: inline;
+  width: auto;
+}
+/* line 34, ../sass/ticker/_mini.scss */
+.csTicker.csTicker--mini p {
+  display: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* line 41, ../sass/ticker/_mini.scss */
+.csTicker.csTicker--mini li > .col > p.h3, .csTicker.csTicker--mini li > p.h3 {
+  display: block;
+  font-size: 1em;
+  color: #5c5c5c;
+  font-weight: normal;
+}
+
+@media (max-width: 559px) {
+  /* line 50, ../sass/ticker/_mini.scss */
+  .csTicker.csTicker--mini .csTicker__title {
+    display: none;
+    width: 0;
+    padding: 0;
+    margin: 0;
+  }
+}

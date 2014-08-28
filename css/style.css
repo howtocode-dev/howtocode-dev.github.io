@@ -198,12 +198,29 @@ a, button {
 
 /* ------------------------ Navigation End ------------------- */
 
+.feed {
+	margin-bottom: 15px;	
+}
+
+.feed section {
+    -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.10)	
+}
+
+.feed section a:hover {
+	color: #5ac9b2;
+}
+
 /* ------------------------ Courses Thumb --------------------- */
 .course {
 	border-radius: 0px;
 	border: 0px;
 	position: relative;
-  	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15)
+
   	padding: 10px 0px 0px 0px;	
   	text-align: center;  
   	overflow:hidden;	
@@ -464,6 +481,10 @@ a, button {
 
 /* CSS specific to the 2x3 columns version */
 @media (min-width:32.5em) and (max-width: 49.938em) {
+
+	.main {
+		margin-bottom: 15px;
+	}
 	
 	/* Creating the 2 column layout using floating elements once again */
 	.nav li {
