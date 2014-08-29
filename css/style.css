@@ -205,7 +205,7 @@ a, button {
 .feed section {
     -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.10);
     -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.10);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.10)	
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.10);	
 }
 
 .feed section a:hover {
@@ -219,7 +219,7 @@ a, button {
 	position: relative;
     -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
     -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15)
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
 
   	padding: 10px 0px 0px 0px;	
   	text-align: center;  
