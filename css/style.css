@@ -224,7 +224,7 @@ a, button {
   	padding: 10px 0px 0px 0px;	
   	text-align: center;  
   	overflow:hidden;	
-  	height: 320px;
+  	height: 324px;
 }
 
 .not-found {
@@ -262,6 +262,7 @@ a, button {
 .caption h3 {
   white-space: nowrap;
   overflow: hidden;
+  line-height: 32px;
   text-overflow: ellipsis;
   -ms-text-overflow: ellipsis;
   -o-text-overflow: ellipsis;  
