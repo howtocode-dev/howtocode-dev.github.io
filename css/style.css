@@ -291,6 +291,21 @@ a, button {
 
 /* ------------ Course Thumb End ----------- */
 
+/* ------------ Sharethis -------------*/
+
+#sharethis span {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.sharethis {
+	margin-bottom: 25px;
+}
+/* ------------ Sharethis -------------*/
+
 /* For screen bigger than 800px */
 @media (min-width: 50em) {
 
