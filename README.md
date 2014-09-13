@@ -52,9 +52,9 @@ Web portal of http://www.howtocode.com.bd
 
 তাই আমাদের স্লোগান- সবার জন্য প্রোগ্রামিং
 
-*Credits:*  
+**Credits:**  
 Navigation: Codrops with http://tympanus.net/codrops/licensing/  
-Layout & Course Thumbs: Nuhil Mehdy http://nuhil.net  with Twitterbootstrap 3.2
+Layout & Course Thumbs: Nuhil Mehdy http://nuhil.net  with Twitterbootstrap 3.2  
 Time formatting: Momentjs momentjs.com  
 RSS Scroller: csTicker  
 Build Update: Github API https://developer.github.com/v3/  
