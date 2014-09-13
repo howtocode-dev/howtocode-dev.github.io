@@ -52,7 +52,8 @@ Web portal of http://www.howtocode.com.bd
 
 তাই আমাদের স্লোগান- সবার জন্য প্রোগ্রামিং
 
-Credits:
-Navigation: Codrops http://www.codrops.com with http://tympanus.net/codrops/licensing/  
+Credits:  
+
+Navigation: Codrops with http://tympanus.net/codrops/licensing/  
 Thumb: Nuhil Mehdy http://nuhil.net  
 
