@@ -63,8 +63,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
       $(document).ready(function(e) {
+              var getUrlParameter = function getUrlParameter(sParam) {
+                  var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+                      sURLVariables = sPageURL.split('&'),
+                      sParameterName,
+                      i;
+              
+                  for (i = 0; i < sURLVariables.length; i++) {
+                      sParameterName = sURLVariables[i].split('=');
+              
+                      if (sParameterName[0] === sParam) {
+                          return sParameterName[1] === undefined ? true : sParameterName[1];
+                      }
+                  }
+              };              
+              
+              var repo = getUrlParameter('repo');
+        
               $.ajax({
-                  url: "https://api.github.com/repos/howtocode-com-bd/python.howtocode.com.bd/contributors", 
+                  url: "https://api.github.com/repos/howtocode-com-bd/"+repo+".howtocode.com.bd/contributors", 
                   type: "GET",           
                   cache: false,
                   success: function(response) {   
@@ -91,24 +108,6 @@
                   	console.log(message);
                   }
               });    
-              
-              var getUrlParameter = function getUrlParameter(sParam) {
-                  var sPageURL = decodeURIComponent(window.location.search.substring(1)),
-                      sURLVariables = sPageURL.split('&'),
-                      sParameterName,
-                      i;
-              
-                  for (i = 0; i < sURLVariables.length; i++) {
-                      sParameterName = sURLVariables[i].split('=');
-              
-                      if (sParameterName[0] === sParam) {
-                          return sParameterName[1] === undefined ? true : sParameterName[1];
-                      }
-                  }
-              };              
-              
-              var repo = getUrlParameter('repo');
-              console.log(repo);
               
       });      
     </script>
