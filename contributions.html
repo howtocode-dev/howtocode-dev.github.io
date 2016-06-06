@@ -87,6 +87,7 @@
                   success: function(response) {   
                       for(var i = 0; i < response.length; i++) {
                           var obj = response[i];
+
                           if (obj.login != "howtocode-com-bd" && (obj.login != "gitter-badger")) {
                               $("#container ul").append("<li id='"+obj.login+"'><div class='contributions'>"+obj.contributions+"</div></li>");
                                                                   
@@ -95,7 +96,11 @@
                                   type: "GET",           
                                   cache: false,
                                   success: function(response) {  
-                                    $("#"+response.login).append("<div class='identity'> <div class='identity-left'><img src='"+response.avatar_url+"' alt='"+response.name+"' height='50' width='50' /></div> <div class='identity-right'><span class='name'>"+response.name+"</span> <span class='web'>"+response.email+"</span> </div> </div>");
+                                    console.log(response);
+                                    var contact = (response.email == null) ? response.html_url : response.email;
+                                    var name = (response.name == null) ? response.login : response.name;                                    
+
+                                    $("#"+response.login).append("<div class='identity'> <div class='identity-left'><img src='"+response.avatar_url+"' alt='"+name+"' height='50' width='50' /></div> <div class='identity-right'><span class='name'>"+name+"</span> <span class='web'>"+contact+"</span> </div> </div>");
                                   },
                                   error: function(message) {
                                     console.log(message);
