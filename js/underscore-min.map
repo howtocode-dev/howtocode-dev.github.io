@@ -1,7 +1,7 @@
 {
 "version": 3,
-file: "underscore-min.js",
-sources: [
+"file": "underscore-min.js",
+"sources": [
 "underscore.js"
 ],
 names: [
