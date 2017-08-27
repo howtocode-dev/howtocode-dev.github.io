@@ -1,0 +1,98 @@
+body {
+  min-height: 75rem; /* Can be removed; just added for demo purposes */
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-brand {
+  font-family: 'Righteous', cursive;
+}
+
+.text-grey {
+  color: #cccccc!important;
+}
+
+.text-green {
+  color: #00aced!important;
+}
+
+.text-blue {
+  color: #3b5998!important;
+}
+
+.text-red {
+  color: #ea4335!important;
+}
+
+.social-share div:last-child {
+  margin-top: 10px;
+}
+
+.navbar-brand small{
+  color: #868e96!important;
+}
+
+.navbar-toggler:focus {
+  outline:0;
+}
+
+.navbar-toggler:hover {
+  cursor: pointer;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron p:last-child a {
+  margin-bottom: 10px;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.album .row {
+  margin-bottom: 25px;
+}
+
+.card-footer p {
+  margin-bottom: 0px;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.badge {
+  cursor: pointer;
+}
+
+.htc-notice {
+  color: #DD860E;
+}

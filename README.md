@@ -51,10 +51,3 @@ Web portal of http://www.howtocode.com.bd
 আর যারা ছাত্র এবং তাদের কোর্সে প্রোগ্রামিং আছে কিন্তু সেটার উপর আগ্রহ নিয়ে কাজ করতে ভয় পাচ্ছেন তারাও যত তারা তারি প্রোগ্রামিং এর উপর ভালবাসা জন্মাতে পারবেন ততই মঙ্গল। উচ্চ শিক্ষা অথবা গবেষণার কাজে প্রোগ্রামিং যে কতটা অপরিহার্য সেটা হয়ত ইতোমধ্যে আপনারা বড়দের কাছ থেকে জেনেও থাকবেন।
 
 তাই আমাদের স্লোগান- সবার জন্য প্রোগ্রামিং
-
-**Credits:**  
-Navigation: Codrops with http://tympanus.net/codrops/licensing/  
-Layout & Course Thumbs: Nuhil Mehdy http://nuhil.net  with Twitterbootstrap 3.2  
-Time formatting: Momentjs momentjs.com  
-RSS Scroller: csTicker  
-Build Update: Github API https://developer.github.com/v3/  
