@@ -31,6 +31,32 @@
   </head>
 
   <body>
+<!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v7.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/bn_IN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="466861363458128"
+  logged_in_greeting="হ্যালো, কিভাবে আপনাকে সাহায্য করতে পারি? "
+  logged_out_greeting="হ্যালো, কিভাবে আপনাকে সাহায্য করতে পারি? ">
+      </div>
+	  
     <div class="collapse bg-dark" id="navbarHeader">
       <div class="container">
         <div class="row">
